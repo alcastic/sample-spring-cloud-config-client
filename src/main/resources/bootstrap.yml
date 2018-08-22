@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: sample-spring-cloud-config-client
+  profiles:
+    active: development,production
+  cloud:
+    config:
+      uri: http://localhost:8888
+      enabled: true
