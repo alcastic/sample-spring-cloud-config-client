@@ -2,7 +2,7 @@ spring:
   application:
     name: sample-spring-cloud-config-client
   profiles:
-    active: development,production
+    active: production
   cloud:
     config:
       uri: http://localhost:8888
